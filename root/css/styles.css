@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grids-index {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-rows: 16.5vh 15vh 25vw 15vw 12vh;
+    grid-template-areas: 
+        "header header header"
+        "titulo titulo titulo"
+        "imagen paper1 paper2"
+        "papper3 papper3 apple"
+        "footer footer footer"
+        ;
+}
+
+header {
+    grid-area: header;
+}
+
+.section-titulo-index {
+    grid-area: titulo;
+}
+
+.container-img-index {
+    grid-area: imagen;
+}
+
+.paper1-index {
+    grid-area: paper1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paper2-index {
+    grid-area: paper2;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paper3-index {
+    grid-area: papper3; 
+    margin-top: 5%;
+}
+
+.img-apple-index {
+    grid-area: apple;
+    width: 70%;
+}
+
+.img-apple {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4.5rem;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.grids-historia {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 16.5vh 15vh repeat(2 50vw) 12vh;
+    grid-template-areas: 
+        "header header"
+        "noticias aside"
+        "noticias aside"
+        "ubicacion aside"
+        "footer footer";
+}
+
+.seccion-noticias {
+    grid-area: noticias;
+}
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+.stilos-derecha {
+    grid-area: aside;
+}
+
+.estilos-derecha2 {
+    grid-area: aside;
+}
+
+.grids-integrantes {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 16.5vh repeat(3 50vw) 12vh;
+    grid-template-areas: 
+        "header header"
+        "titulointegrantes titulointegrantes"
+        "tablaintegrantes tablaintegrantes"
+        "textointegrantes textointegrantes"
+        "footer footer";
+}
+
+.titulo-integrantes {
+    grid-area: titulointegrantes;
+}
+
+.tabla-integrantes {
+    grid-area: tablaintegrantes;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.texto-integrantes {
+    grid-area: textointegrantes;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3.8rem;
+}
+
+.grids-discografia {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 16.5vh repeat(3 50vw) 12vh;
+    grid-template-areas: 
+        "header"
+        "titulodiscografia"
+        "disco1discografia"
+        "tabladiscografia"
+        "disco2discografia"
+        "footer";
+}
+
+.titulo-discografia {
+    grid-area: titulodiscografia;
+    text-align: center;
+}
+
+.discos1-discografia {
+    grid-area: disco1discografia;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 4rem;
+} 
+
+.tabla-discografia {
+    grid-area: tabladiscografia;
+}
+
+.discos2-discografia {
+    grid-area: disco2discografia;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+} 
+
+.grids-multimedia {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.5vh 15vh repeat(2 50vw) 12vh;
+    grid-template-areas: 
+        "header header"
+        "titulomultimedia titulomultimedia"
+        "canciones1multimedia canciones2multimedia"
+        "footer footer";
+}
+
+.titulo-multimedia {
+    grid-area: titulomultimedia;
+
+}
+
+.canciones1-multimedia {
+    grid-area: canciones1multimedia;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 6rem;
+    height: 100%;
+}
+
+.canciones2-multimedia {
+    grid-area: canciones2multimedia;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6rem;
+    height: 100%;
+}
+
+.grids-contacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.5vh 15vh 20vw 16.5vh 12vh;
+    grid-template-areas: 
+        "header header"
+        "titulocontacto titulocontacto"
+        "form1contacto form2contacto"
+        "botonescontacto botonescontacto"
+        "footer footer";
+}
+
+.titulo-contacto {
+    grid-area: titulocontacto;
+}
+
+.form1-contacto {
+    grid-area: form1contacto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.form2-contacto {
+    grid-area: form2contacto;
+}
+
+.botones-contacto {
+    grid-area: botonescontacto;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+}
+
+.container-inputs {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-contacto {
+    width: 50%;
+    border: none;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    margin: 0.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.botonEnviar-contacto {
+    background-color: #4CA771;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1rem;
+}
+
+.botonEnviar-contacto:hover {
+    background-color: #013237;
+}
+
+.botonBorrar-contacto {
+    background-color: #4CA771;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+.botonBorrar-contacto:hover {
+    background-color: #013237;
+}
+
+.grids-productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.5vh 15vh 30vw 12vh;
+    grid-template-areas: 
+        "header header"
+        "tituloproductos tituloproductos"
+        "card1productos card2productos"
+        "footer footer";
+}
+
+.titulo-productos {
+    grid-area: tituloproductos;
+}
+
+.card1-productos {
+    grid-area: card1productos;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.card2-productos {
+    grid-area: card2productos;
+    display: flex;
+    width: 100%;
+}
+
+/********** HEADER **********/
+
+.stilos{
+    background-color: #013237;
+    background-position-y: center;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.navegador{
+    background-color: #01957D;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+
+.lista {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.lista:hover {
+    color: #C1E6BA;
+}
+
+/********* MAIN **********/
+
+.titulo {
+    color: #1A1A1A;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-titulo {
+    background-color: #333;
+}
+
+.titulo-papper {
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 17px;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+
+/* Index */
+.img-index {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 71.5%;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.parrafo-index {
+    color: #444;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Contacto */
+.titulo-contacto {
+    margin: 0;
+}
+
+#imgContacto{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+        url(./img/help.jpg);
+    font-size: 20px;
+}
+
+.containerContacto {
+    padding: 10px;
+}
+
+/* Historia */
+.fondo1-historia {
+    grid-area: titulohistoria;
+    font-size: 30px;
+    margin: 0;
+    width: 100%;
+}
+
+.fondo2-historia {
+    grid-area: titulo;
+    width: 100%;
+}
+
+.parrafo1-historia {
+    grid-area: parrafohistoria;
+    color: #444;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.parrafo2-historia {
+    grid-area: parrafohistoria;
+    color: #444;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.img1-historia {
+    max-width: 50rem;   
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-historia {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+/* Integrantes */
+.table-integrantes {
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.img2-integrantes {
+    margin-left: 10rem;
+    width: 30rem; 
+}
+
+/* Discografía */
+.container-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.table-discografia {
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    height: 40vh;
+    width: 90vh;
+}
+
+.img-discografia {
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Multimedia */
+
+/* Productos */
+.container-productos {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.cards {
+    border:solid 0.7px #666;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 470px;
+    margin: 2rem;
+    padding: 15px;
+    width: 200px;
+}
+
+.titulo-producto {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-producto {
+    display: flex;
+    justify-content: center;
+}
+
+.img-producto1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.img-producto2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-producto3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.img-producto4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.8rem;
+}
+
+.container-botones {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-comprar {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    border: none;
+    background-color: #4CA771;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 100px;
+    padding: 0.4rem 0 0.4rem 0;
+} 
+
+.boton-comprar:hover {
+    background-color: #013237;
+}
+
+
+.boton-compartir {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    border: none;
+    background-color: #4CA771;
+    margin-top: 0.3rem;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 100px;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.boton-compartir:hover {
+    background-color: #013237;
+}
+
+
+/********** FOOTER **********/
+
+footer {
+    background-color: #01957D;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-footer {
+    width: 300px; 
+    margin-top: 0.7rem; 
+    margin-bottom: 0.7rem;
+}
+
+.copy {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+
+    /* INDEX */
+    .lista{
+        font-size: 15px;
+    }
+
+    .grids-index {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 14vh 12vh 47vw 60vw 20vw 22vh;
+        grid-template-areas: 
+            "header header"
+            "titulo titulo"
+            "imagen imagen"
+            "paper1 paper2"
+            "papper3 papper3"
+            "apple apple"
+            "footer footer";
+    }
+
+    .paper1-index {
+        margin: auto;
+    }
+    
+    .paper2-index {
+        margin: auto;
+    }
+
+    .img-apple-index {
+        width: 100%;
+    }
+
+    .img-footer {
+        width: 200px; 
+        margin-top: 0.7rem; 
+        margin-bottom: 0.7rem;
+    }
+
+    .copy {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    /* INDEX */
+    .lista{
+        font-size: 9px;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }
+
+    .grids-index {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 14vh 11vh 47vw 105vw 105vw 56vw 22vh;
+        grid-template-areas: 
+            "header header"
+            "titulo titulo"
+            "imagen imagen"
+            "paper1 paper1"
+            "paper2 paper2"
+            "papper3 papper3"
+            "apple apple"
+            "footer footer";
+    }
+
+    .paper1-index {
+        margin: auto;
+    }
+    
+    .paper2-index {
+        margin: auto;
+    }
+
+    .img-apple-index {
+        width: 100%;
+    }
+
+    .img-footer {
+        width: 100px; 
+        margin-top: 0.7rem; 
+        margin-bottom: 0.7rem;
+    }
+
+    .copy {
+        font-size: 0.8rem;
+    }
+
+}
