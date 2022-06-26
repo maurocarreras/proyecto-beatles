@@ -201,6 +201,7 @@ footer {
     margin-top: auto;
     margin-bottom: 6rem;
     height: 100%;
+    
 }
 
 .canciones2-multimedia {
@@ -452,7 +453,8 @@ footer {
 }
 
 .img1-historia {
-    max-width: 50rem;   
+    max-width: 50rem; 
+    box-shadow: 0px 4px 4px 3.7px rgba(0, 0, 0, 0.25); 
     display: flex;
     justify-content: center;
     margin: auto;
@@ -460,6 +462,7 @@ footer {
 
 .img-historia {
     display: flex;
+    box-shadow: 0px 1.5px 2px 2px rgba(0, 0, 0, 0.25);
     justify-content: center;
     margin: auto;
     margin-bottom: 5rem;
@@ -475,6 +478,9 @@ footer {
 .img2-integrantes {
     margin-left: 10rem;
     width: 30rem; 
+    animation-name: integrantesydiscos;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
 
 /* Discografía */
@@ -496,6 +502,9 @@ footer {
 
 .img-discografia {
     box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    animation-name: integrantesydiscos;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
 }
 
 /* Multimedia */
@@ -508,6 +517,7 @@ footer {
 
 .cards {
     border:solid 0.7px #666;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -710,5 +720,24 @@ footer {
     .copy {
         font-size: 0.8rem;
     }
+
+}
+
+/* -------animaciones------------ */
+
+@keyframes  integrantesydiscos{
+
+0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(50px);
+}
+
+100% {
+    transform: translateX(-10px);
+}
+
+
 
 }
