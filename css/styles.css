@@ -307,14 +307,14 @@ footer {
 }
 
 .card1-productos {
-    grid-area: card1productos;
+    /* grid-area: card1productos; */
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
 .card2-productos {
-    grid-area: card2productos;
+    /* grid-area: card2productos; */
     display: flex;
     width: 100%;
 }
@@ -333,8 +333,8 @@ footer {
 .navegador{
     background-color: #01957D;
     display: flex;
-    font-size: 30px;
-    justify-content: center;
+    /* font-size: 30px; */
+    justify-content: space-between;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -513,6 +513,10 @@ animation-iteration-count: infinite;
 .container-productos {
     display: flex;
     flex-wrap: wrap; 
+}
+
+.card-style {
+    margin: 0 15px 30px 15px;
 }
 
 .cards {
