@@ -9,130 +9,245 @@
     <title>THE BEATLES</title>
 </head>
 <body>
-    <div class="grids-contacto">
-        <header>
-            <div class="stilos">
-                <a href="/index.html">
-                    <img 
-                        src="../img/Beatles-Logo.png" 
-                        alt="Logo The Beatles"
-                        style="width: 150px;"    
-                    >
-                </a>
+    <div class="container-fluid" style="padding: 0;">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <div class="stilos">
+                        <a href="/index.html">
+                            <img 
+                                src="../img/Beatles-Logo.png" 
+                                alt="Logo The Beatles"
+                                style="width: 150px;"    
+                            >
+                        </a>
+                    </div>
+        
+                <div class="navegador">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./integrantes.html">Integrantes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./discografia.html">Discografia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./multimedia.html">Multimedia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./productos.html">Productos</a>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./contacto.html">Contacto</a>
+                                </li>
+                            </li>
+                            </ul>
+                            </li>
+                            </ul>
+                    </div>
+                    </div>
+                </nav>
+                </div>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="titulo">Registrate para mas informacion</h3>
+            </div>
+        </div>
+
+        <form>
+            <div class="row">
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 70%;">
+                        <label for="inputNombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" aria-describedby="Nombre">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 70%;">
+                        <label for="inputApellido" class="form-label">Apellido:</label>
+                        <input type="text" class="form-control" aria-describedby="Apellido">
+                    </div>
+                </div>
             </div>
 
-    <div class="navegador">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./historia.html">Historia</a>
-                </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="./integrantes.html">Integrantes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="./discografia.html">Discografia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="./multimedia.html">Multimedia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="./productos.html">Productos</a>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./contacto.html">Contacto</a>
-                </li>
-            </li>
-            </ul>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-    </div>
-        </header>
+            <div class="row">
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 70%;">
+                        <label for="Usuario" class="form-label">Usuario:</label>
+                        <input type="text" class="form-control" aria-describedby="Usuario">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-12" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="form-check" style="width: 25%;">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Masculino
+                        </label>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-12" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="form-check" style="width: 25%;">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Femenino
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label style="display: flex; justify-content: center; align-items: center;" for="Nacionalidad" class="form-label">Nacionalidad:</label>
+                </div>
+                <div class="col-6">
+                    <select style="display: flex;justify-content: center; align-items: center; width: 50%;" class="form-select" aria-label="Mes del año">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Colombia">Colombia</option>
+                        </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 70%;">
+                        <label for="InputEmail1" class="form-label">Email:</label>
+                        <input type="email" class="form-control" aria-describedby="email">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 70%;">
+                        <label for="exampleInputEmail1" class="form-label">Teléfono:</label>
+                        <input type="text" class="form-control" aria-describedby="tel">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 85%;">
+                        <label for="Contraseña" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control" aria-describedby="Contraseña">
+                        <div id="emailHelp" class="form-text">Debe contener mayúscula, minúscula, número y caracter especial.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="display: flex; justify-content: center;">
+                    <div class="mb-3" style="width: 85%;">
+                        <label for="Contraseña" class="form-label">Confirmar contraseña:</label>
+                        <input type="password" class="form-control" aria-describedby="Contraseña">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <input class="botonEnviar-contacto" type="submit" value="Enviar mensaje">
+                </div>
+                <div class="col-xl-6 col-md-12" style="display: flex; justify-content: center;">
+                    <input class="botonBorrar-contacto" type="reset" value="Borrar formulario">
+                </div>
+            </div>
+
+        </form>
+
     
-        <!-- <section id="imgContacto"> -->
-            <section class="titulo-contacto">
-                <h3 class="titulo">Contactanos para mas informacion</h3>
-            </section>
-
-            <section class="form1-contacto">
-                <form>
-                    <div class="container-inputs">
-                        <label for="Campo-nombre">Nombre y apellido:</label>
-                        <input class="input-contacto" type="text" id="Campo-nombre" placeholder="nombre y apellido">  
-                    </div>
-                    
-                    <div class="container-inputs">
-                        <label>Contraseña</label>
-                        <input class="input-contacto" type="password"placeholder="escribe tu contraseña">
-                        <br>
-                    </div>
-
-                    <div class="container-inputs">
-                        <input type="checkbox">
-                        <label>Recordar</label>
-                        <br>
-                    </div>
-
-                    <div class="container-inputs">
-                        <label for="selec-pais">País: introduzca su pais</label>
-                            <select class="input-contacto" name="" id="selec-pais">
-                                <option value="">Argentina</option>
-                                <option value="">Colombia</option>
-                                <option value="">Uruguay</option>
-                                <option value="">Brasil</option>
-                                <option value="">Venezuela</option>
-                            </select>
-                    </div>
-            </section>
-                        
-            <section class="form2-contacto">
-                <div class="container-inputs">
-                    <label for="capo-mail">Email:</label>
-                    <input 
-                        type="email"id="campo-mail" 
-                        placeholder="escribe tu mail aqui@.com"
-                        class="input-contacto"
-                    >
-                    <br>
-                </div>
-
-                <div class="container-inputs">
-                    <label>Telefono</label>
-                    <input class="input-contacto" type="tel" placeholder="escribe tu telefono">
-                    <br>
-                </div>
-
-                <label>Comentario</label>
-                <div>
-                    <textarea class="input-contacto" name="" id="" cols="30" rows="10" placeholder="Dejenos su comentario"></textarea>
-                </div>
-            </section>
-
-            <section class="botones-contacto">
-                <input class="botonEnviar-contacto" type="submit" value="Enviar mensaje">
-                <input class="botonBorrar-contacto" type="reset" value="Borrar formulario">
-            </section>  
-
-            </form>
-        <!-- </section> -->
-    
-        <footer id="footer">
-            <img src="../img/v.png" alt="footer logo" style="width:300px; margin-top: 0.7rem; margin-bottom: 0.7rem;">
-            <p class="copy">Copyright © The Beatles - 2022</p>
-            <img src="../img/v.png" alt="footer logo" style="width:300px; margin-top: 0.7rem; margin-bottom: 0.7rem;">
-        </footer>
+        <div class="row" style="margin-top: 1.1rem">
+            <div class="col">
+                <footer id="footer">
+                    <img src="../img/v.png" alt="footer logo" style="width:300px; margin-top: 0.7rem; margin-bottom: 0.7rem;">
+                    <p class="copy">Copyright © The Beatles - 2022</p>
+                    <img src="../img/v.png" alt="footer logo" style="width:300px; margin-top: 0.7rem; margin-bottom: 0.7rem;">
+                </footer>
+            </div>
+        </div>
     </div>
     <script src="../js/bootstrap.js"></script>
 </body>
 </html>
+<!-- <section id="imgContacto"> -->
+    <!-- <section class="titulo-contacto">
+        <h3 class="titulo">Contactanos para mas informacion</h3>
+    </section>
+
+    <section class="form1-contacto">
+        <form>
+            <div class="container-inputs">
+                <label for="Campo-nombre">Nombre y apellido:</label>
+                <input class="input-contacto" type="text" id="Campo-nombre" placeholder="nombre y apellido">  
+            </div>
+            
+            <div class="container-inputs">
+                <label>Contraseña</label>
+                <input class="input-contacto" type="password"placeholder="escribe tu contraseña">
+                <br>
+            </div>
+
+            <div class="container-inputs">
+                <input type="checkbox">
+                <label>Recordar</label>
+                <br>
+            </div>
+
+            <div class="container-inputs">
+                <label for="selec-pais">País: introduzca su pais</label>
+                    <select class="input-contacto" name="" id="selec-pais">
+                        <option value="">Argentina</option>
+                        <option value="">Colombia</option>
+                        <option value="">Uruguay</option>
+                        <option value="">Brasil</option>
+                        <option value="">Venezuela</option>
+                    </select>
+            </div>
+    </section>
+                
+    <section class="form2-contacto">
+        <div class="container-inputs">
+            <label for="capo-mail">Email:</label>
+            <input 
+                type="email"id="campo-mail" 
+                placeholder="escribe tu mail aqui@.com"
+                class="input-contacto"
+            >
+            <br>
+        </div>
+
+        <div class="container-inputs">
+            <label>Telefono</label>
+            <input class="input-contacto" type="tel" placeholder="escribe tu telefono">
+            <br>
+        </div>
+
+        <label>Comentario</label>
+        <div>
+            <textarea class="input-contacto" name="" id="" cols="30" rows="10" placeholder="Dejenos su comentario"></textarea>
+        </div>
+    </section>
+
+    <section class="botones-contacto">
+        <input class="botonEnviar-contacto" type="submit" value="Enviar mensaje">
+        <input class="botonBorrar-contacto" type="reset" value="Borrar formulario">
+    </section>  
+
+    </form> -->
+<!-- </section> -->
