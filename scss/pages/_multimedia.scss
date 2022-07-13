@@ -1,3 +1,40 @@
 
 
 
+.grids-multimedia {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.5vh 15vh repeat(2 50vw) 12vh;
+    grid-template-areas: 
+        "header header"
+        "titulomultimedia titulomultimedia"
+        "canciones1multimedia canciones2multimedia"
+        "footer footer";
+}
+
+.titulo-multimedia {
+    grid-area: titulomultimedia;
+
+}
+
+.canciones1-multimedia {
+    grid-area: canciones1multimedia;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 6rem;
+    height: 100%;
+    
+}
+
+.canciones2-multimedia {
+    grid-area: canciones2multimedia;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6rem;
+    height: 100%;
+}

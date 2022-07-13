@@ -1,0 +1,20 @@
+.titulo-integrantes {
+    grid-area: titulointegrantes;
+}
+
+.tabla-integrantes {
+    grid-area: tablaintegrantes;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.texto-integrantes {
+    grid-area: textointegrantes;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3.8rem;
+}

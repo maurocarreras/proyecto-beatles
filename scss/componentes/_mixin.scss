@@ -1,0 +1,19 @@
+@mixin fontsize ( $size, $weight){
+    font-size: $size;
+    font-weight: $weight;
+    
+}
+
+.letradeparrafo{
+    @include fontsize(1rem,100 );
+}
+
+.letradetitulo{
+    @include fontsize(3rem, 1000);
+}
+
+.letramediana{
+
+    @include fontsize(2rem,500 );
+}
+

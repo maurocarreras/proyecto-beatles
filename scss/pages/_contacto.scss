@@ -1,0 +1,39 @@
+.container-botones {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-comprar {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    border: none;
+    background-color: #4CA771;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 100px;
+    padding: 0.4rem 0 0.4rem 0;
+} 
+
+.boton-comprar:hover {
+    background-color: #013237;
+}
+
+
+.boton-compartir {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    border: none;
+    background-color: #4CA771;
+    margin-top: 0.3rem;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 100px;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.boton-compartir:hover {
+    background-color: #013237;
+}
