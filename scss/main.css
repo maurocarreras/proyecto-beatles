@@ -130,4 +130,34 @@ footer .copy {
   font-size: 1.2rem;
 }
 
+.boton-comprar, .botonsalmon, .botonverde, .botonnaranja {
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 5px;
+  border: none;
+  background-color: #4CA771;
+  color: #FFF;
+  font-weight: 300;
+  border-radius: 15px;
+  padding: 0.4rem 0 0.4rem 0;
+}
+.boton-comprar:hover, .botonsalmon:hover, .botonverde:hover, .botonnaranja:hover {
+  filter: opacity(90%);
+}
+
+.botonsalmon {
+  background-color: salmon;
+  color: #FFF;
+}
+
+.botonverde {
+  background-color: greenyellow;
+  color: #FFF;
+}
+
+.botonnaranja {
+  background-color: orange;
+  color: #FFF;
+}
+
 /*# sourceMappingURL=main.css.map */
