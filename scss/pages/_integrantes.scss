@@ -18,3 +18,17 @@
     margin: auto;
     margin-bottom: 3.8rem;
 }
+
+.table-integrantes {
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.img2-integrantes {
+    margin-left: 10rem;
+    width: 30rem; 
+    animation-name: integrantesydiscos;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}

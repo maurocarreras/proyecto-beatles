@@ -3,11 +3,13 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
+
     .img-footer {
         width: 300px; 
         margin-top: 0.7rem; 
         margin-bottom: 0.7rem;
     }
+    
     .copy {
         margin: 0;
         display: flex;
