@@ -37,3 +37,15 @@
 .boton-compartir:hover {
     background-color: #013237;
 }
+
+.botonEnviar-contacto{
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    border: none;
+    background-color: #4CA771;
+    margin-top: 0.3rem;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 100px;
+}

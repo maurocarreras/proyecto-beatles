@@ -11,12 +11,19 @@
     &:hover{
         filter: opacity(90%);
     }
+    
 }
 
 .botonsalmon{
     @extend .boton-comprar;
     background-color: salmon;
     color: #FFF;
+    
+    
+
+
+
+    
 }
 
 .botonverde{

@@ -15,6 +15,7 @@ $botonesCompra: (
     font-weight: 300;
     border-radius: 15px;
     padding: 0.4rem 0 0.4rem 0;
+    text-decoration: none;
     &:hover{
         filter: opacity(90%);
     }
@@ -24,6 +25,7 @@ $botonesCompra: (
     @extend .boton-comprar;
     background-color: map-get($map: $botonesCompra, $key: Muñeco );
     color: #FFF;
+    
 }
 
 .botonverde{

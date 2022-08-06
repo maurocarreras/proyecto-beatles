@@ -2,6 +2,7 @@
 
 $colorprimario: #01957D;
 $colorsecundario:#013237;
+$colorterciario:#d9d9db;
 
 .c-primario{
     color: $colorprimario;
@@ -9,4 +10,8 @@ $colorsecundario:#013237;
 
 .c-secundario{
     color: $colorsecundario;
+}
+
+.c-terciario{
+    color:$colorterciario;
 }
